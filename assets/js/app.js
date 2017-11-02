@@ -46,6 +46,9 @@ function add() {
 		heart.classList.toggle('red');
 	})
 
-	
+	//Evento para borrar comentario al presionar el tarro de basura
+	trash.addEventListener('click', function() {
+		cont.removeChild(newComments);
+	})
 }
 
